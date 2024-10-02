@@ -11,4 +11,7 @@ export class TaskRunnersConfig {
 
 	@Env('N8N_RUNNERS_AUTH_TOKEN')
 	authToken: string = '';
+
+	@Env('N8N_RUNNERS_LAUNCHER_PATH')
+	launcherPath: string = '';
 }
